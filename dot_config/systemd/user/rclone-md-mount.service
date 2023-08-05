@@ -1,0 +1,12 @@
+[Unit]
+Description=Rclone MD Mount Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/rclone mount md:/ /home/pd/mnt/md
+ExecStop=/usr/bin/fusermount3 -uz /home/pd/mnt/md
+Restart=always
+
+[Install]
+WantedBy=default.target
+

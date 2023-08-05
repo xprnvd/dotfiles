@@ -1,0 +1,12 @@
+[Unit]
+Description=Rclone XG Mount Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/rclone mount xg:/ /home/pd/mnt/xg
+ExecStop=/usr/bin/fusermount3 -uz /home/pd/mnt/md
+Restart=always
+
+[Install]
+WantedBy=default.target
+
