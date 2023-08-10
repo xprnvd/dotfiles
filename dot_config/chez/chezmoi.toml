@@ -1,0 +1,8 @@
+[git]
+    autoCommit = true
+    autoPush = true
+
+encryption = "age"
+[age]
+    identity = "/home/pd/.config/age/chezmoi.key"
+    recipient = "age14zxayzcj5yufcr506hg8qwq6nz6nrcdjzu40g9cjcs7mz8d0eclq8l75jd"
