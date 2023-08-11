@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 starship init fish | source
 zoxide init fish | source
-set -x EDITOR hx
+set -x EDITOR /opt/homebrew/bin/hx
 complete --command aws --no-files --arguments '(begin; set --local --export COMP_SHELL fish; set --local --export COMP_LINE (commandline); aws_completer | sed \'s/ $//\'; end)'
 end
 for file in ~/.config/fish/aliases/*.fish
