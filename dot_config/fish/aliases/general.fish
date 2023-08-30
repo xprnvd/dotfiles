@@ -62,10 +62,6 @@ function zp
     zathura $argv
 end
 
-function dig
-    dog $argv
-end
-
 function df
     lfs $argv
 end
