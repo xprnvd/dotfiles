@@ -1,3 +1,9 @@
 theme = "base16_black_metal"
+[editor]
+mouse = true
+auto-completion	= true
+auto-format = true
+true-color = true
+
 [editor.soft-wrap]
 enable = true
