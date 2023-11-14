@@ -11,11 +11,11 @@ function zz
 end
 
 function ls
-    exa $argv
+    eza $argv
 end
 
 function l
-    exa -la $argv
+    eza -la $argv
 end
 
 function cat
