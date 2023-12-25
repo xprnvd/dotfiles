@@ -106,9 +106,6 @@ function csv
     xsv $argv
 end
 
-function age
-    age -i ~/.age/age.key $argv
-end
 
 function reboot
     sudo reboot now $argv
