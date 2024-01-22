@@ -50,10 +50,6 @@ function cum
     tmux -s cmus || tmux attach cmus
 end
 
-function code
-    code $argv ^/dev/null
-end
-
 function gc
     git commit -m "`date`" -a
 end
