@@ -2,6 +2,7 @@ function vim
     hx $argv
 end
 
+
 function pacman
     sudo pacman $argv
 end
