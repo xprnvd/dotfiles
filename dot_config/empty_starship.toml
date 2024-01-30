@@ -1,2 +1,4 @@
 [battery]
 disabled = true
+[container]
+disabled = true
